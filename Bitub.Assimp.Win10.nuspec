@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>Bitub.Assimp.Win10</id>
+    <version>5.4.0</version>
+    <authors>bernold.kraft@gmail.com</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="file">docs/package-license.md</license>
+    <projectUrl>https://github.com/bekraft/BitubAssimpWin</projectUrl>
+    <description>Bitub Assimp Win Binary Redidtribution Package</description>
+    <releaseNotes>Assimp is a 3D asset import and export SDK made by https://github.com/assimp/assimp</releaseNotes>
+    <copyright>Bernold Kraft</copyright>
+    <readme>docs/package-readme.md</readme> 
+    <tags>bitub assimp win</tags>
+    <dependencies>
+      <group targetFramework="native"/>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="build\lib\x86\*.*" target="lib\native\v143\x86\" />
+    <file src="build\lib\x64\*.*" target="lib\native\v143\x64\" />
+    <file src="build\include\assimp\*.*" target="build\native\include" />
+    <file src="build\include\assimp\Compiler\*.*" target="build\native\include\Compiler" />
+    <file src="Bitub.Assimp.Win10.targets" target="build" />
+    <file src="package-readme.md" target="docs" />
+    <file src="package-license.md" target="docs" />
+  </files> 
+</package>
