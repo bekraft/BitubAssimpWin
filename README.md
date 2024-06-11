@@ -7,7 +7,7 @@ See https://github.com/assimp/assimp.
 
 ## Contents
 
-- packages Occt libraries into `lib/native/`
+- packages Assimp libraries into `lib/native/`
 - copies header files into `build/native/include`
 
 ## Build Nuget package
